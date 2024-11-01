@@ -1,0 +1,160 @@
+.upgarde_plan {
+    position: relative;
+    z-index: 1;
+}
+.upgarde_plan:before {
+    background: rgba(236, 236, 236, 0.85);
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+.upgrade-link{
+    position: absolute;
+    z-index: 99;
+    right: 20px;
+    top: 20px;
+}
+.icon-skill {
+    background-image: url(../images/skill-icon-frame.png);
+    float: right;
+    width: 100px;
+    height: 120px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 100px 120px;
+}
+img.icon-skill-img {
+    width: 80px;
+    margin: 10px auto 30px;
+    height: auto;
+    border-radius: 50%;
+}
+.upload_skill_icon {
+    height: 40px;
+}
+input.file_skill_icon {
+    width: 0;
+    opacity: 0;
+}
+.skill_icon_error{
+	display:none;
+}
+.toplevel_page_shoutworks  .card {
+    max-width: 885px;
+}
+#createSkillForm .card:last-child {
+    display: block;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.shout_player p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 58px;
+    float: left;
+    margin-right: 10px;
+}
+.shout_player audio {
+    width: 400px;
+    outline: transparent;
+}
+.signup_panel input.form-control {
+    margin-bottom: 20px;
+}
+.signup_panel input.form-control:first-child, .signup_panel input.form-control:nth-child(2) {
+    width: calc(50% - 10px);
+    float: left;
+}
+.signup_panel input.form-control:nth-child(2) {
+    float: right;
+}
+.card-button {
+	background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 5px auto;
+    display: inline-block;
+}
+.swks_wrapper .nav-tab-wrapper{
+	padding-left:0;
+	padding-right:0;
+}
+.title_edit {
+    border: 1px solid;
+    display: inline-block;
+    background: #fff;
+    display: none;
+}
+.title_view span {
+    padding: 0 1px;
+}
+.edit_title img {
+    width: 18px;
+    margin-left: 10px;
+}
+
+.title_edit input{
+    background: transparent;
+    border: none !important;
+    padding: 0 1px important;
+    box-shadow: none !important;
+    line-height:normal !important;
+    min-height: auto !important;
+}
+input.title_txt {
+    min-width: 100px;
+}
+a.update_title {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+a.update_title img {
+    width: 18px;
+    margin-left: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+.title_edit input:focus {
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.title_view span, .title_edit input {
+    font-size: 14px;
+    line-height: 16px !important;
+}
+
+.title_edit {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    padding: 5px;
+}
+
+swks_wrapper .card-header {
+    min-height: 45px;
+}
+
+
+.wrap.swks_wrapper .card-header {min-height: 45px;}
+
+.float-right{
+    float: right;
+}
+.title_error_msg{
+	float:right;
+	color:#ff0000;
+}
+.title_error {
+    border: 1px solid #ff0000;
+}
+#update-button-action-label{
+    display: none;;
+}

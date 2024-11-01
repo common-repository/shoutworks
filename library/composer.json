@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dsentker/phpinsights": "^0.2.2"
+    }
+}
